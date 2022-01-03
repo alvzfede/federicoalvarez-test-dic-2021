@@ -1,8 +1,7 @@
 # Applaudo Studios Test 
 ## Federico Alvarez
 
-## General Info
-Evidence:
+## Evidence
 ![Alt text](/evidence/evidence1.PNG?raw=true)
 ![Alt text](/evidence/evidence2.PNG?raw=true)
 ![Alt text](/evidence/evidence3.PNG?raw=true)
