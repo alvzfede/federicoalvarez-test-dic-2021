@@ -15,5 +15,8 @@
 ## Execute
 On console execute the command:
 ```
+mvn install
+```
+```
 java -jar ApplaudoTest-0.0.1-SNAPSHOT.jar
 ```
