@@ -1,15 +1,16 @@
 # Applaudo Studios Test 
 ## Federico Alvarez
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+## General Info
 
 
 ## Technologies
 
-
+- Maven
+- Spring boot framework
+- Java 
+- H2 database (username/password - sa/password)
+- Hibernate
 
 ## Installation
 On console execute the command:
