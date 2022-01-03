@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "c094bdb2-2aaa-47c6-9878-1bc81dfc7e0a",
+		"name": "ApplaudoTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"itemId\":2,\r\n \"itemName\":\"item_x\",\r\n \"itemEnteredByUser\":\"user_x\",\r\n \"itemEnteredDate\":\"2020-05-10T13:00:41.499\",\r\n \"itemBuyingPrice\":50.0,\r\n \"itemSellingPrice\":55.0,\r\n \"itemLastModifiedDate\":\"2020-05-10T13:00:41.498\",\r\n \"itemLastModifiedByUser\":\"user_y\",\r\n \"itemStatus\":\"AVAILABLE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/item",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"item"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetITem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/item/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"item",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/item/?itemStatus=AVAILABLE&itemName=ITEM_X",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"item",
+						""
+					],
+					"query": [
+						{
+							"key": "itemStatus",
+							"value": "AVAILABLE"
+						},
+						{
+							"key": "itemName",
+							"value": "ITEM_X"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
