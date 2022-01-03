@@ -5,14 +5,13 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration)
+
+
+## Technologies
 
 
 
-
-
-#installation
-## Execute
+## Installation
 On console execute the command:
 ```
 mvn install
@@ -20,3 +19,4 @@ mvn install
 ```
 java -jar ApplaudoTest-0.0.1-SNAPSHOT.jar
 ```
+And execute the requests content on file ApplaudoTest.postman_collection.json througth postman. 
