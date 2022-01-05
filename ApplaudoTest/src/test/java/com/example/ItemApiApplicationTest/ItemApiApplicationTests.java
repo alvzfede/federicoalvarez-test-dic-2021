@@ -1,10 +1,10 @@
-package com.example.ApplaudoTest;
+package com.example.ItemApiApplicationTest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplaudoTestApplicationTests {
+class ItemApiApplicationTests {
 
 	/*@Test
 	void contextLoads() {
