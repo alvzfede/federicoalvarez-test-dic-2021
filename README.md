@@ -17,4 +17,4 @@ mvn install
 ```
 java -jar ApplaudoTest-0.0.1-SNAPSHOT.jar
 ```
-And execute the requests from file ApplaudoTest.postman_collection.json through Postman. 
+And execute the requests from file ItemServicesTest.postman_collection.json through Postman. 
