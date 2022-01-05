@@ -20,11 +20,11 @@ import org.apache.logging.log4j.Logger;
 @Service
 public class ItemServiceImp implements ItemService{
 	
-	Logger log = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
+	private Logger log = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
-	static final String ITEM_EXIST = "Item exists on database";
-	static final String ITEM_NOT_FOUND = "Item not found";
-	static final String SUCCESS = "Success";
+	private static final String ITEM_EXIST = "Item exists on database";
+	private static final String ITEM_NOT_FOUND = "Item not found";
+	private static final String SUCCESS = "Success";
 	
 	@Autowired
 	private ItemRepository itemRepository;
