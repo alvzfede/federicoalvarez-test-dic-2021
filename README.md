@@ -1,13 +1,5 @@
-# Applaudo Studios Test 
+# Item Api 
 ## Federico Alvarez
-
-## Evidence
-![Alt text](/evidence/evidence1.PNG?raw=true)
-![Alt text](/evidence/evidence2.PNG?raw=true)
-![Alt text](/evidence/evidence3.PNG?raw=true)
-![Alt text](/evidence/evidence4.PNG?raw=true)
-![Alt text](/evidence/evidence5.PNG?raw=true)
-![Alt text](/evidence/evidence6.PNG?raw=true)
 
 ## Technologies
 
