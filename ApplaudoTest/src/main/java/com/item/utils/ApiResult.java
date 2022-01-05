@@ -1,4 +1,4 @@
-package com.applaudo.utils;
+package com.item.utils;
 
 public class ApiResult {
 

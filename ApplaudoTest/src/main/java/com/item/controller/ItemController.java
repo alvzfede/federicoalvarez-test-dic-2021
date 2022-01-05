@@ -1,4 +1,4 @@
-package com.applaudo.controller;
+package com.item.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.validation.Valid;
 
-import com.applaudo.entity.Item;
-import com.applaudo.entity.ItemStatus;
-import com.applaudo.service.definition.ItemService;
-import com.applaudo.utils.ApiResult;
+import com.item.entity.Item;
+import com.item.entity.ItemStatus;
+import com.item.service.definition.ItemService;
+import com.item.utils.ApiResult;
 
 @RestController
 @RequestMapping("app")

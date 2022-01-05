@@ -1,4 +1,4 @@
-package com.applaudo.entity;
+package com.item.entity;
 
 public enum ItemStatus {
 	

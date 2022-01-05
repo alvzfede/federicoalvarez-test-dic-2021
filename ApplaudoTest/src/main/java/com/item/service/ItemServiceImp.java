@@ -1,4 +1,4 @@
-package com.applaudo.service;
+package com.item.service;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -8,11 +8,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.applaudo.entity.Item;
-import com.applaudo.entity.ItemStatus;
-import com.applaudo.repository.ItemRepository;
-import com.applaudo.service.definition.ItemService;
-import com.applaudo.utils.ApiResult;
+import com.item.entity.Item;
+import com.item.entity.ItemStatus;
+import com.item.repository.ItemRepository;
+import com.item.service.definition.ItemService;
+import com.item.utils.ApiResult;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

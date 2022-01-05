@@ -1,10 +1,10 @@
-package com.applaudo.service.definition;
+package com.item.service.definition;
 
 import org.springframework.http.ResponseEntity;
 
-import com.applaudo.entity.Item;
-import com.applaudo.entity.ItemStatus;
-import com.applaudo.utils.ApiResult;
+import com.item.entity.Item;
+import com.item.entity.ItemStatus;
+import com.item.utils.ApiResult;
 
 public interface ItemService {
 

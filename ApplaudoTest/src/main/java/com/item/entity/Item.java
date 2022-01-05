@@ -1,4 +1,4 @@
-package com.applaudo.entity;
+package com.item.entity;
 import java.time.LocalDateTime;
 
 import javax.persistence.Column;
